@@ -1,10 +1,90 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<!--link current page to css file-->
+<link rel="stylesheet" href="HomePage.css">
 
-    </head>
+<head>
+    <title>Pastry Chef Alex's Home Page</title>
+</head>
 
-    <body>
-        
-    </body>
+<body>
+    <!--Logo + Navigation Bar-->
+    <header>
+        <nav+logo>
+            <img src="logo.jpg" alt="Pink Cupcake Logo">
+            <ul><!--home dropdown menu-->
+                <div class="home_dropdown">
+                    <li><a href="index.html">Home</a></li>
+                    <div class="dropdown_content">
+                        <a href="#about_chef">About Chef</a>
+                        <a href="#chef_introduction">Chef Introduction</a>
+                        <a href="#chef_work_art">Chef Work Art</a>
+                    </div>
+                </div>
+                <li><a href="ContactPage.html">Contact</a></li>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+            </ul>
+        </nav+logo>
+    </header>
+
+    <div class="Web_Body">
+        <!--About Chef-->
+        <div class="about_chef">
+            <image>
+                <img src="photo.jpg" alt="Chef with a Cake">
+            </image>
+
+            <div class="information" id="about_chef">
+                <p>Name : Alex Willton</p>
+                <p>Restaurant: Pond Place</p>
+                <p>Expert in : Customize Cake</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <!--Chef Introduction-->
+        <h2 id="chef_introduction">Chef Introduction</h2>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper tellus ac nibh aliquam
+            condimentum non et nisi. Aliquam nec luctus leo, a porttitor lectus. Donec congue sem libero. Quisque
+            convallis nunc odio, at ullamcorper nulla fringilla id. Quisque in augue at risus eleifend
+            tempus eu at arcu. Ut tellus ipsum, posuere ut hendrerit eget, iaculis sit amet nisi.</p>
+        <hr>
+
+        <!--Chef Work Art-->
+        <h2 id="chef_work_art">Chef Work Art</h2>
+
+        <div class="image_gallery_session">
+
+            <div class="flex-container">
+
+                <div class="gallery">
+                    <img src="gallery_1.jpg" alt="chocolate cake photo">
+                </div>
+
+                <div class="gallery">
+                    <img src="gallery_2.jpg" alt="cupcake cake photo">
+                </div>
+
+                <div class="gallery">
+                    <img src="gallery_3.jpg" alt="nut cake photo">
+                </div>
+
+                <div class="gallery">
+                    <img src="gallery_4.jpg" alt="blackforest cake photo">
+                </div>
+
+                <div class="gallery">
+                    <img src="gallery_5.jpg" alt="strawberry cake photo">
+                </div>
+
+            </div>
+            <!--image gallery-->
+
+        </div>
+    </div>
+
+
+</body>
+
 </html>

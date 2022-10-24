@@ -1,0 +1,172 @@
+/*body*/
+body {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*Header Logo*/
+.logo {
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+/*Nav Bar*/
+ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Verdana, sans-serif; 
+    font-size: 14px;
+    color: black;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  li {
+    display: inline;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 16px;
+  }
+
+  li a {
+    padding: 20px;
+    margin-inline: 20px;
+    color: pink;
+  }
+
+  .dropdown_content {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: white;
+  }
+
+  .dropdown_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .home_dropdown:hover .dropdown_content {
+    display: block;
+  }
+
+/*Web Body (Except Nav Bar)*/
+.Web_Body {
+    padding-top: 50px;
+}
+
+/*Form*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+p {
+  color: pink;
+}
+
+.information_session {
+    margin-top: 10px;
+    margin-right: 250px;
+}
+
+header {
+    font-size: 18px;
+    color: black;
+}
+
+.container {
+    font-size: 14px;
+    color: black;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+
+.form-group,
+.checkbox,
+.submit {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+    margin-top: 5px; 
+    height: 50px;
+}
+
+input[type=text],
+input[type=checkbox],
+select {
+    border: 1px solid black;
+    padding: 12px 20px;
+}
+
+.checkmark {
+    margin-left: 10px;
+}
+
+input[type=submit] {
+    background-color: white;
+    color: black;
+    border: solid;
+    border-width: 1px;
+    padding: 16px 32px;
+    margin: 4px 2px;
+  }
+
+/*Button*/
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+  
+.button:hover {
+    background-color: pink;
+    color: white;
+  }
