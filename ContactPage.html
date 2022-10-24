@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="ContactPage.css">
+
+<head>
+    <title>Pastry Chef Alex's Contact Page</title>
+</head>
+
+<body>
+    <!--Logo + Navigation Bar-->
+    <header>
+        <nav+logo>
+            <div class="logo">
+                <img src="logo.jpg" alt="Pink Cupcake Logo">
+            </div>
+            <ul>
+                <!--home dropdown menu-->
+                <div class="home_dropdown">
+                    <li><a href="HomePage.html">Home</a></li>
+                    <div class="dropdown_content">
+                        <a href="#">About Chef</a>
+                        <a href="#">Chef Introduction</a>
+                        <a href="#">Chef Work Art</a>
+                    </div>
+                </div>
+                <li><a href="ContactPage.html">Contact</a></li>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+            </ul>
+        </nav+logo>
+    </header>
+
+    <div class="Web_Body">
+        <div class="information_session">
+
+            <header>
+                <p>Please Feel Free to Contact Us: </p>
+            </header>
+
+            <div class="container">
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" alt="fullname input" id="fullname" name="fullname">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" alt="email input" id="email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="product">Pastry Theme</label>
+                    <select id="product" name="product" alt="select theme input">
+                        <option value="select">Select</option>
+                        <option value="product1">Birthday</option>
+                        <option value="product2">Aniversary</option>
+                        <option value="product3">Holiday</option>
+                        <option value="product3">Wedding</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" alt="message input" id="message" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="checkbox">
+                    <label for="checkbox">
+                        <!--checkbox style-->
+                        <input type="checkbox" alt="checkbox input" checked="checked">
+                        <span class="checkmark">Subscribe to our newsletter</span>
+                    </label>
+                </div>
+
+                <div class="submit">
+                    <input type="button" alt="submit" class="button" value="Submit">
+                </div>
+
+            </div>
+            <!--container-->
+
+        </div>
+    </div>
+
+</body>
+
+</html>

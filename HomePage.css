@@ -1,0 +1,109 @@
+/*body*/
+body {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*Nav Bar*/
+ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Verdana, sans-serif; 
+    font-size: 14px;
+    color: black; 
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  li {
+    display: inline;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 16px;
+  }
+
+  li a {
+    padding: 20px;
+    margin-inline: 20px;
+    color: pink;
+  }
+
+  .dropdown_content {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: white;
+  }
+
+  .dropdown_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .home_dropdown:hover .dropdown_content {
+    display: block;
+  }
+
+/*Web Body (Except Nav Bar)*/
+.Web_Body {
+    padding-top: 100px;
+}
+
+h2 {
+  color: pink;
+}
+
+/*About Chef*/
+p {
+    display: block;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.about_chef {
+    display: inline-flex;
+}
+
+.information {
+    padding-left: 50px;
+    padding-top: 120px;
+}
+
+/*Chef Work Art*/
+.image_gallery_session {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+header {
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    border: solid;
+    border-width: 2px;
+}
+
+.gallery {
+    margin: 10px;
+    margin-right: 5px;
+}
+
