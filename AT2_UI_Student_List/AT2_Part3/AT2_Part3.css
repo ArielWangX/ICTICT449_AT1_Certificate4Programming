@@ -1,0 +1,22 @@
+.list{
+    border: 1px solid #9e9e9e;
+    margin-top: 10px;
+}
+
+.list .row{
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.list .row:nth-child(odd){
+    background-color: #dddddd;
+}
+
+button{
+    cursor: pointer;
+}
+
+.list .row:hover, button:hover {
+    background-color: #ffc5e2;
+    transition: background-color 200ms;
+}
