@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student List</title>
+    <link rel="stylesheet" href="AT2_Part3.css">
+</head>
+
+<body onload="">
+    <div class="section">
+        <h1>Student List</h1>
+        <div class="controls">
+            <form id="form-list-control">
+                <input type="text" placeholder="student ID..." name="search-string" id="searchInput">
+                <button type="button" name="btn-search" onclick="searchClick();">Search by ID</button>
+                <button type="button" name="btn-refresh" onclick="refreshClick();">Refresh</button>
+            </form>
+        </div>
+
+        <div class="list" id="list">
+            <div class="row">Student List</div>
+            <div class="row">Student List</div>
+            <div class="row">Student List</div>
+            <div class="row">Student List</div>
+            <div class="row">Student List</div>
+            <div class="row">Student List</div>
+        </div>
+
+        <p id="no-result"></p>
+    </div> <!-- div.section -->
+
+    <div class="section">
+        <h1>Add Student</h1>
+        <form id="form-add">
+            <label>Student ID: </label>
+            <input type="text" placeholder="student ID..." name="student ID" id="studentID">
+            <br>
+            <label>First Name: </label>
+            <input type="text" placeholder="first name..." name="first name" id="firstName">
+            <br>
+            <label>Last Name: </label>
+            <input type="text" placeholder="last name..." name="last name" id="lastName">
+            <br>
+            <label>Qualification: </label>
+            <input type="text" placeholder="qualification..." name="qualification" id="qualification">
+            <br>
+            <button type="button" name="btn-submit" onclick="addClick();">Submit</button>
+        </form>
+    </div> <!-- div.section -->
+
+
+</body>
+
+</html>
+
+<script src="AT2_Part3_StudentList.js"></script>
+<script src="AT2_Part3.js"></script>
